@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Negative_Sampling_SkipGram" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/图片数字识别/NumberRecognition" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/负采样W2Vector/Negative_Sampling_SkipGram" vcs="Git" />
   </component>
 </project>
