@@ -2,7 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Negative_Sampling_SkipGram" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/图片数字识别/NumberRecognition" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Negative_Sampling_SkipGram" vcs="" />
+    <mapping directory="$PROJECT_DIR$/图片数字识别/NumberRecognition" vcs="" />
   </component>
 </project>
