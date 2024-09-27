@@ -4,6 +4,7 @@ from collections import deque
 import heapq  # 导入堆模块以支持优先队列
 import random  # 导入随机模块
 
+
 # from queue import PriorityQueue, deque
 
 class PathFinder:
@@ -20,13 +21,17 @@ class PathFinder:
             self.ans.append(start)
         if start == goal:
             return self.ans
-        directions = [(1, 0), (0, 1), (-1, 0), (0, -1)]
-        random.shuffle(directions)
+        directions = [(-1, 0), (0, -1), (1, 0), (0, 1)]
+        for i in range(4):
+            new_row = start[0] + directions[i][0]
+            new_col = start[1] + directions[i][1]
+
         for i in range(4):
             new_row = start[0] + directions[i][0]
             new_col = start[1] + directions[i][1]
             if 0 <= new_row < self.rows and 0 <= new_col < self.cols and (
                     new_row, new_col) not in self.ans and self.found == False and self.grid[new_row][new_col] != -1:
+
                 # print(self.grid[new_row][new_col])
                 self.ans.append((new_row, new_col))
                 # print(self.ans)
@@ -36,7 +41,7 @@ class PathFinder:
                 else:  # 如果没有找到路径，撤销选择
                     # 如果没有找到，撤销选择
                     self.ans.pop()
-        return None
+        # return None
 
     def breadthFirstSearch(self, start, goal):
         queue = deque([start])
@@ -58,8 +63,8 @@ class PathFinder:
                 self.ans.reverse()
                 return self.ans
 
-            directions = [(1, 0), (0, 1), (-1, 0), (0, -1)]
-            random.shuffle(directions)
+            directions = [(-1, 0), (0, -1), (1, 0), (0, 1)]
+
             for direction in directions:
                 new_row = current[0] + direction[0]
                 new_col = current[1] + direction[1]
@@ -103,8 +108,8 @@ class PathFinder:
             self.visited.add(current)
 
             # 获取当前节点的邻居位置
-            directions = [(1, 0), (0, 1), (-1, 0), (0, -1)]
-            random.shuffle(directions)
+            directions = [(-1, 0), (0, -1), (1, 0), (0, 1)]
+
             for direction in directions:
                 new_row = current[0] + direction[0]
                 new_col = current[1] + direction[1]
@@ -133,67 +138,83 @@ class PathFinder:
         plt.figure(figsize=(10, 10))
         plt.imshow(grid, cmap="Greys", origin="upper")
 
+        # 处理路径
         if path is not None:
-            if path is not None:
-                path_x = []
-                path_y = []
+            path_x = []
+            path_y = []
 
-                for point in path:
-                    path_x.append(point[0])
-                    path_y.append(point[1])
+            for point in path:
+                path_x.append(point[0])  # 行坐标
+                path_y.append(point[1])  # 列坐标
 
-            plt.plot(path_x, path_y, marker='o', color='red', linewidth=2, markersize=6, label='Path')
+            plt.plot(path_y, path_x, marker='o', color='red', linewidth=2, markersize=6, label='Path')
 
-        plt.text(path[0][1], path[0][0], 'Start', color='green', fontsize=12, ha='center', va='center')
-        plt.text(path[-1][1], path[-1][0], 'Goal', color='blue', fontsize=12, ha='center', va='center')
+            # 显示起点和终点
+            plt.text(path[0][1], path[0][0], 'Start', color='green', fontsize=12, ha='center', va='center')
+            plt.text(path[-1][1], path[-1][0], 'Goal', color='blue', fontsize=12, ha='center', va='center')
+
+        # 添加坐标轴
+        plt.xticks(np.arange(grid.shape[1]))  # 设置 x 轴刻度
+        plt.yticks(np.arange(grid.shape[0]))  # 设置 y 轴刻度
+
+        # 在坐标轴上显示网格
+        plt.grid(True)
+
+        # 显示刻度线的标签
+        plt.title("Path Visualization")
+        plt.xlabel("Column Index")
+        plt.ylabel("Row Index")
 
         plt.legend()
-        plt.xticks(np.arange(grid.shape[1]))
-        plt.yticks(np.arange(grid.shape[0]))
-        plt.grid(True)
-        plt.title("Path Visualization")
-
         plt.show()
 
 
+# grid = [
+#     [1, 2, 1, 1, 1, 3, 1, -1, 1, 1, 4, 1, 1, 2, 1, 1, -1, 1, 5, 1],
+#     [1, -1, 1, 1, 2, 2, -1, 1, 1, 1, 3, -1, 1, -1, 1, -1, 1, 3, 1, 1],
+#     [1, 1, 1, -1, 3, -1, -1, 1, -1, 1, 1, 1, 2, 1, -1, 1, -1, 4, 1, 1],
+#     [1, -1, 2, 1, 1, 1, -1, -1, -1, 1, -1, 2, 1, 1, 1, -1, 1, 1, 1, 1],
+#     [-1, 2, 3, -1, -1, 1, 1, 1, 1, 1, -1, -1, 1, 1, 1, 2, 1, -1, -1, 1],
+#     [1, 1, 1, 1, 1, 2, 1, -1, 1, 2, 3, 1, 1, 1, 1, 1, 1, 1, 4, -1],
+#     [1, -1, -1, -1, 1, 1, -1, -1, -1, 1, -1, -1, -1, -1, -1, 1, 1, -1, 1, 1],
+#     [-1, 1, 1, 1, 1, 1, -1, 1, -1, 1, 1, 3, 2, 1, 4, 1, 1, -1, -1, 2],
+#     [1, 1, -1, -1, 1, 1, 2, 1, 1, 1, 1, -1, 1, 5, -1, -1, 1, 1, 1, -1],
+#     [1, 3, -1, 2, -1, -1, 1, 1, 2, 2, 1, 1, 1, -1, 2, -1, 1, 1, 1, -1],
+#     [-1, 1, -1, 1, 1, 1, 1, 1, -1, 1, 1, 1, -1, 1, 1, 1, 2, 1, 1, 1],
+#     [1, -1, -1, 1, -1, -1, 1, -1, 1, 1, 1, 2, 1, 1, -1, -1, 1, 1, 2, 1],
+#     [-1, 2, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 2, 3, -1, 1, 1, 2, 1, 1],
+#     [1, -1, -1, 1, -1, 1, 1, 1, 1, 1, 4, 1, 1, -1, 1, -1, 1, 1, 1, 1],
+#     [-1, 1, -1, -1, 1, -1, 1, 1, 1, 2, 1, 2, -1, 1, 2, 1, -1, 1, 3, 1],
+#     [1, 1, 1, 2, 3, 2, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1, 1, -1, 1],
+#     [1, -1, 1, 1, 2, 1, -1, 1, 1, -1, -1, 1, 1, 1, 1, 1, -1, 1, 1, 1],
+#     [1, 1, 1, 1, 1, 1, 1, -1, -1, 3, 1, 1, 1, 1, -1, 1, -1, -1, 1, 1],
+#     [1, -1, -1, -1, -1, -1, 1, 1, 1, -1, 1, -1, 1, 1, 1, 2, 2, -1, 1, 1],
+#     [1, 1, 1, 1, 1, 1, -1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1, 1, 1]
+# ]
+
 grid = [
-    [1, 2, 1, 1, 1, 3, 1, -1, 1, 1, 4, 1, 1, 2, 1, 1, -1, 1, 5, 1],
-    [1, -1, 1, 1, 2, 2, -1, 1, 1, 1, 3, -1, 1, -1, 1, -1, 1, 3, 1, 1],
-    [1, 1, 1, -1, 3, -1, -1, 1, -1, 1, 1, 1, 2, 1, -1, 1, -1, 4, 1, 1],
-    [1, -1, 2, 1, 1, 1, -1, -1, -1, 1, -1, 2, 1, 1, 1, -1, 1, 1, 1, 1],
-    [-1, 2, 3, -1, -1, 1, 1, 1, 1, 1, -1, -1, 1, 1, 1, 2, 1, -1, -1, 1],
-    [1, 1, 1, 1, 1, 2, 1, -1, 1, 2, 3, 1, 1, 1, 1, 1, 1, 1, 4, -1],
-    [1, -1, -1, -1, 1, 1, -1, -1, -1, 1, -1, -1, -1, -1, -1, 1, 1, -1, 1, 1],
-    [-1, 1, 1, 1, 1, 1, -1, 1, -1, 1, 1, 3, 2, 1, 4, 1, 1, -1, -1, 2],
-    [1, 1, -1, -1, 1, 1, 2, 1, 1, 1, 1, -1, 1, 5, -1, -1, 1, 1, 1, -1],
-    [1, 3, -1, 2, -1, -1, 1, 1, 2, 2, 1, 1, 1, -1, 2, -1, 1, 1, 1, -1],
-    [-1, 1, -1, 1, 1, 1, 1, 1, -1, 1, 1, 1, -1, 1, 1, 1, 2, 1, 1, 1],
-    [1, -1, -1, 1, -1, -1, 1, -1, 1, 1, 1, 2, 1, 1, -1, -1, 1, 1, 2, 1],
-    [-1, 2, -1, -1, 1, 1, -1, 1, 1, -1, 1, 1, 2, 3, -1, 1, 1, 2, 1, 1],
-    [1, -1, -1, 1, -1, 1, 1, 1, 1, 1, 4, 1, 1, -1, 1, -1, 1, 1, 1, 1],
-    [-1, 1, -1, -1, 1, -1, 1, 1, 1, 2, 1, 2, -1, 1, 2, 1, -1, 1, 3, 1],
-    [1, 1, 1, 2, 3, 2, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1, 1, -1, 1],
-    [1, -1, 1, 1, 2, 1, -1, 1, 1, -1, -1, 1, 1, 1, 1, 1, -1, 1, 1, 1],
-    [1, 1, 1, 1, 1, 1, 1, -1, -1, 3, 1, 1, 1, 1, -1, 1, -1, -1, 1, 1],
-    [1, -1, -1, -1, -1, -1, 1, 1, 1, -1, 1, -1, 1, 1, 1, 2, 2, -1, 1, 1],
-    [1, 1, 1, 1, 1, 1, -1, 1, -1, 1, 1, -1, 1, 1, 1, 1, 1, 1, 1, 1]
+    [1, 2, 1, -1, 3, 2, 1],
+    [2, -1, 5, -1, 2, 3, 1],
+    [1, 1, 1, 1, 5, -1, 1],
+    [1, -1, -1, -1, 1, 2, 1],
+    [1, 1, 3, 1, 1, 5, 1],
+    [1, -1, 1, 1, 2, 1, 1],
+    [1, 1, 1, -1, 1, 1, 1]
 ]
-
-
 
 # build class
 pathfinder = PathFinder(grid)
 
 # start and goal
 start = (0, 0)
-goal = (0, 19)
+goal = (6, 6)
 
 # find path
 dfs_path = pathfinder.depthFirstSearch(start, goal)
-# bfs_path = pathfinder.breadthFirstSearch(start, goal)
-# ucs_path = pathfinder.uniformCostSearch(start, goal)
+bfs_path = pathfinder.breadthFirstSearch(start, goal)
+ucs_path = pathfinder.uniformCostSearch(start, goal)
 
 # visualization
 pathfinder.visualize_path(dfs_path)
-# pathfinder.visualize_path(bfs_path)
-# pathfinder.visualize_path(ucs_path)
+pathfinder.visualize_path(bfs_path)
+pathfinder.visualize_path(ucs_path)
