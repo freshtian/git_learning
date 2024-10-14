@@ -3,7 +3,7 @@ import numpy as np
 from collections import deque
 import heapq  # 导入堆模块以支持优先队列
 import random  # 导入随机模块
-
+from datetime import datetime
 
 # from queue import PriorityQueue, deque
 
@@ -210,11 +210,14 @@ start = (0, 0)
 goal = (6, 6)
 
 # find path
-dfs_path = pathfinder.depthFirstSearch(start, goal)
-bfs_path = pathfinder.breadthFirstSearch(start, goal)
+# dfs_path = pathfinder.depthFirstSearch(start, goal)
+# bfs_path = pathfinder.breadthFirstSearch(start, goal)
+start_time = datetime.now()
 ucs_path = pathfinder.uniformCostSearch(start, goal)
 
 # visualization
-pathfinder.visualize_path(dfs_path)
-pathfinder.visualize_path(bfs_path)
+# pathfinder.visualize_path(dfs_path)
+# pathfinder.visualize_path(bfs_path)
 pathfinder.visualize_path(ucs_path)
+end_time = datetime.now()
+print(f"运行时间: {end_time - start_time} 秒")
