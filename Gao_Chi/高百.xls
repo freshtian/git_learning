@@ -1,0 +1,2455 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:x="urn:schemas-microsoft-com:office:excel" xmlns="http://www.w3.org/TR/REC-html40">
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="ProgId" content="Excel.Sheet">
+  <meta name="Generator" content="WPS Office ET">
+  <!--[if gte mso 9]>
+   <xml>
+    <o:DocumentProperties>
+     <o:Created>2024-10-07T19:15:15</o:Created>
+     <o:LastAuthor>WPS_1651465284</o:LastAuthor>
+     <o:LastSaved>2024-10-07T19:28:28</o:LastSaved>
+    </o:DocumentProperties>
+    <o:CustomDocumentProperties>
+     <o:KSOProductBuildVer dt:dt="string">2052-12.1.0.17827</o:KSOProductBuildVer>
+     <o:ICV dt:dt="string">0C96C6D76048453BA0FA97180BBA4E5A_12</o:ICV>
+    </o:CustomDocumentProperties>
+   </xml>
+  <![endif]-->
+  <style>
+<!-- @page
+	{margin:1.00in 0.75in 1.00in 0.75in;
+	mso-header-margin:0.50in;
+	mso-footer-margin:0.50in;}
+tr
+	{mso-height-source:auto;
+	mso-ruby-visibility:none;}
+col
+	{mso-width-source:auto;
+	mso-ruby-visibility:none;}
+br
+	{mso-data-placement:same-cell;}
+.font0
+	{color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font1
+	{color:#000000;
+	font-size:10.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"Arial Unicode MS";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font2
+	{color:#0000FF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font3
+	{color:#800080;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font4
+	{color:#FF0000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font5
+	{color:#44546A;
+	font-size:18.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font6
+	{color:#7F7F7F;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:italic;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font7
+	{color:#44546A;
+	font-size:15.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font8
+	{color:#44546A;
+	font-size:13.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font9
+	{color:#44546A;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:134;}
+.font10
+	{color:#3F3F76;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font11
+	{color:#3F3F3F;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font12
+	{color:#FA7D00;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font13
+	{color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font14
+	{color:#FA7D00;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font15
+	{color:#000000;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font16
+	{color:#006100;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font17
+	{color:#9C0006;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font18
+	{color:#9C6500;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font19
+	{color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.font20
+	{color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:"宋体";
+	mso-generic-font-family:auto;
+	mso-font-charset:0;}
+.style0
+	{mso-number-format:"General";
+	text-align:general;
+	vertical-align:middle;
+	white-space:nowrap;
+	mso-rotate:0;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:134;
+	border:none;
+	mso-protection:locked visible;
+	mso-style-name:"常规";
+	mso-style-id:0;}
+.style16
+	{mso-number-format:"_ * \#\,\#\#0\.00_ \;_ * \\-\#\,\#\#0\.00_ \;_ * \0022-\0022??_ \;_ \@_ ";
+	mso-style-name:"千位分隔";
+	mso-style-id:3;}
+.style17
+	{mso-number-format:"_ \\¥* \#\,\#\#0\.00_ \;_ \\¥* \\-\#\,\#\#0\.00_ \;_ \\¥* \0022-\0022??_ \;_ \@_ ";
+	mso-style-name:"货币";
+	mso-style-id:4;}
+.style18
+	{mso-number-format:"0%";
+	mso-style-name:"百分比";
+	mso-style-id:5;}
+.style19
+	{mso-number-format:"_ * \#\,\#\#0_ \;_ * \\-\#\,\#\#0_ \;_ * \0022-\0022_ \;_ \@_ ";
+	mso-style-name:"千位分隔[0]";
+	mso-style-id:6;}
+.style20
+	{mso-number-format:"_ \\¥* \#\,\#\#0_ \;_ \\¥* \\-\#\,\#\#0_ \;_ \\¥* \0022-\0022_ \;_ \@_ ";
+	mso-style-name:"货币[0]";
+	mso-style-id:7;}
+.style21
+	{color:#0000FF;
+	font-size:11.0pt;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:宋体;
+	mso-style-name:"超链接";
+	mso-style-id:8;}
+.style22
+	{color:#800080;
+	font-size:11.0pt;
+	text-decoration:underline;
+	text-underline-style:single;
+	font-family:宋体;
+	mso-style-name:"已访问的超链接";
+	mso-style-id:9;}
+.style23
+	{mso-pattern:auto none;
+	background:#FFFFCC;
+	border:.5pt solid #B2B2B2;
+	mso-style-name:"注释";}
+.style24
+	{color:#FF0000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	mso-style-name:"警告文本";}
+.style25
+	{color:#44546A;
+	font-size:18.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:134;
+	mso-style-name:"标题";}
+.style26
+	{color:#7F7F7F;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:italic;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	mso-style-name:"解释性文本";}
+.style27
+	{color:#44546A;
+	font-size:15.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:134;
+	border-bottom:1.0pt solid #5B9BD5;
+	mso-style-name:"标题 1";}
+.style28
+	{color:#44546A;
+	font-size:13.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:134;
+	border-bottom:1.0pt solid #5B9BD5;
+	mso-style-name:"标题 2";}
+.style29
+	{color:#44546A;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:134;
+	border-bottom:1.0pt solid #ACCCEA;
+	mso-style-name:"标题 3";}
+.style30
+	{color:#44546A;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:134;
+	mso-style-name:"标题 4";}
+.style31
+	{mso-pattern:auto none;
+	background:#FFCC99;
+	color:#3F3F76;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	border:.5pt solid #7F7F7F;
+	mso-style-name:"输入";}
+.style32
+	{mso-pattern:auto none;
+	background:#F2F2F2;
+	color:#3F3F3F;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	border:.5pt solid #3F3F3F;
+	mso-style-name:"输出";}
+.style33
+	{mso-pattern:auto none;
+	background:#F2F2F2;
+	color:#FA7D00;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	border:.5pt solid #7F7F7F;
+	mso-style-name:"计算";}
+.style34
+	{mso-pattern:auto none;
+	background:#A5A5A5;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	border:2.0pt double #3F3F3F;
+	mso-style-name:"检查单元格";}
+.style35
+	{color:#FA7D00;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	border-bottom:2.0pt double #FF8001;
+	mso-style-name:"链接单元格";}
+.style36
+	{color:#000000;
+	font-size:11.0pt;
+	font-weight:700;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	border-top:.5pt solid #5B9BD5;
+	border-bottom:2.0pt double #5B9BD5;
+	mso-style-name:"汇总";}
+.style37
+	{mso-pattern:auto none;
+	background:#C6EFCE;
+	color:#006100;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	mso-style-name:"好";}
+.style38
+	{mso-pattern:auto none;
+	background:#FFC7CE;
+	color:#9C0006;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	mso-style-name:"差";}
+.style39
+	{mso-pattern:auto none;
+	background:#FFEB9C;
+	color:#9C6500;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	mso-style-name:"适中";}
+.style40
+	{mso-pattern:auto none;
+	background:#5B9BD5;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	mso-style-name:"强调文字颜色 1";}
+.style41
+	{mso-pattern:auto none;
+	background:#DDEBF7;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	mso-style-name:"20% - 强调文字颜色 1";}
+.style42
+	{mso-pattern:auto none;
+	background:#BDD7EE;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	mso-style-name:"40% - 强调文字颜色 1";}
+.style43
+	{mso-pattern:auto none;
+	background:#9BC2E6;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	mso-style-name:"60% - 强调文字颜色 1";}
+.style44
+	{mso-pattern:auto none;
+	background:#ED7D31;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	mso-style-name:"强调文字颜色 2";}
+.style45
+	{mso-pattern:auto none;
+	background:#FCE4D6;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	mso-style-name:"20% - 强调文字颜色 2";}
+.style46
+	{mso-pattern:auto none;
+	background:#F8CBAD;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	mso-style-name:"40% - 强调文字颜色 2";}
+.style47
+	{mso-pattern:auto none;
+	background:#F4B084;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	mso-style-name:"60% - 强调文字颜色 2";}
+.style48
+	{mso-pattern:auto none;
+	background:#A5A5A5;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	mso-style-name:"强调文字颜色 3";}
+.style49
+	{mso-pattern:auto none;
+	background:#EDEDED;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	mso-style-name:"20% - 强调文字颜色 3";}
+.style50
+	{mso-pattern:auto none;
+	background:#DBDBDB;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	mso-style-name:"40% - 强调文字颜色 3";}
+.style51
+	{mso-pattern:auto none;
+	background:#C9C9C9;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	mso-style-name:"60% - 强调文字颜色 3";}
+.style52
+	{mso-pattern:auto none;
+	background:#FFC000;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	mso-style-name:"强调文字颜色 4";}
+.style53
+	{mso-pattern:auto none;
+	background:#FFF2CC;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	mso-style-name:"20% - 强调文字颜色 4";}
+.style54
+	{mso-pattern:auto none;
+	background:#FFE699;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	mso-style-name:"40% - 强调文字颜色 4";}
+.style55
+	{mso-pattern:auto none;
+	background:#FFD966;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	mso-style-name:"60% - 强调文字颜色 4";}
+.style56
+	{mso-pattern:auto none;
+	background:#4472C4;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	mso-style-name:"强调文字颜色 5";}
+.style57
+	{mso-pattern:auto none;
+	background:#D9E1F2;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	mso-style-name:"20% - 强调文字颜色 5";}
+.style58
+	{mso-pattern:auto none;
+	background:#B4C6E7;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	mso-style-name:"40% - 强调文字颜色 5";}
+.style59
+	{mso-pattern:auto none;
+	background:#8EA9DB;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	mso-style-name:"60% - 强调文字颜色 5";}
+.style60
+	{mso-pattern:auto none;
+	background:#70AD47;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	mso-style-name:"强调文字颜色 6";}
+.style61
+	{mso-pattern:auto none;
+	background:#E2EFDA;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	mso-style-name:"20% - 强调文字颜色 6";}
+.style62
+	{mso-pattern:auto none;
+	background:#C6E0B4;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	mso-style-name:"40% - 强调文字颜色 6";}
+.style63
+	{mso-pattern:auto none;
+	background:#A9D08E;
+	color:#FFFFFF;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:0;
+	mso-style-name:"60% - 强调文字颜色 6";}
+td
+	{mso-style-parent:style0;
+	padding-top:1px;
+	padding-right:1px;
+	padding-left:1px;
+	mso-ignore:padding;
+	mso-number-format:"General";
+	text-align:general;
+	vertical-align:middle;
+	white-space:nowrap;
+	mso-rotate:0;
+	color:#000000;
+	font-size:11.0pt;
+	font-weight:400;
+	font-style:normal;
+	text-decoration:none;
+	font-family:宋体;
+	mso-font-charset:134;
+	border:none;
+	mso-protection:locked visible;}
+.xl65
+	{mso-style-parent:style0;
+	white-space:normal;
+	font-size:10.0pt;
+	font-family:Arial Unicode MS;
+	mso-font-charset:134;
+	border:.5pt solid windowtext;}
+ -->  </style>
+  <!--[if gte mso 9]>
+   <xml>
+    <x:ExcelWorkbook>
+     <x:ExcelWorksheets>
+      <x:ExcelWorksheet>
+       <x:Name>Sheet1</x:Name>
+       <x:WorksheetOptions>
+        <x:DefaultRowHeight>280</x:DefaultRowHeight>
+        <x:StandardWidth>2231</x:StandardWidth>
+        <x:Selected/>
+        <x:TopRowVisible>238</x:TopRowVisible>
+        <x:Panes>
+         <x:Pane>
+          <x:Number>3</x:Number>
+          <x:ActiveCol>0</x:ActiveCol>
+          <x:ActiveRow>118</x:ActiveRow>
+          <x:RangeSelection>119:119</x:RangeSelection>
+         </x:Pane>
+        </x:Panes>
+        <x:ProtectContents>False</x:ProtectContents>
+        <x:ProtectObjects>True</x:ProtectObjects>
+        <x:ProtectScenarios>True</x:ProtectScenarios>
+        <x:PageBreakZoom>100</x:PageBreakZoom>
+        <x:Print>
+         <x:PaperSizeIndex>9</x:PaperSizeIndex>
+        </x:Print>
+       </x:WorksheetOptions>
+      </x:ExcelWorksheet>
+     </x:ExcelWorksheets>
+     <x:ProtectStructure>False</x:ProtectStructure>
+     <x:ProtectWindows>False</x:ProtectWindows>
+     <x:SelectedSheets>0</x:SelectedSheets>
+     <x:WindowHeight>12080</x:WindowHeight>
+     <x:WindowWidth>24750</x:WindowWidth>
+    </x:ExcelWorkbook>
+   </xml>
+  <![endif]-->
+ </head>
+ <body link="blue" vlink="purple">
+  <table width="1280" border="0" cellpadding="0" cellspacing="0" style='width:640.00pt;border-collapse:collapse;table-layout:fixed;'>
+   <col width="70" style='mso-width-source:userset;mso-width-alt:1706;'/>
+   <col width="452.50" style='mso-width-source:userset;mso-width-alt:11031;'/>
+   <col width="364.90" style='mso-width-source:userset;mso-width-alt:8896;'/>
+   <col width="82.30" style='mso-width-source:userset;mso-width-alt:2006;'/>
+   <col width="107.20" span="2" style='mso-width-source:userset;mso-width-alt:2613;'/>
+   <col width="95.90" style='mso-width-source:userset;mso-width-alt:2338;'/>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" width="70" style='height:14.00pt;width:35.00pt;' x:str>名次</td>
+    <td class="xl65" width="452.50" style='width:226.25pt;' x:str>团队名称</td>
+    <td class="xl65" width="364.90" style='width:182.45pt;' x:str>选手信息</td>
+    <td class="xl65" width="82.30" style='width:41.15pt;' x:str>编号</td>
+    <td class="xl65" width="107.20" style='width:53.60pt;' x:str>耗时</td>
+    <td class="xl65" width="107.20" style='width:53.60pt;' x:str>配速</td>
+    <td width="95.90" style='width:47.95pt;' x:str>性别</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>1</td>
+    <td class="xl65" x:str>西北大学-YES跑步训练营</td>
+    <td class="xl65" x:str>李佳怡</td>
+    <td class="xl65" x:str>A0710</td>
+    <td class="xl65" x:str>15:04.5</td>
+    <td class="xl65" x:str>03:46.1</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>2</td>
+    <td class="xl65" x:str>兰州交通大学-天佑雄鹰</td>
+    <td class="xl65" x:str>黄波波</td>
+    <td class="xl65" x:str>A0110</td>
+    <td class="xl65" x:str>15:05.4</td>
+    <td class="xl65" x:str>03:46.4</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>3</td>
+    <td class="xl65" x:str>中南大学-律动ing</td>
+    <td class="xl65" x:str>王慧惠</td>
+    <td class="xl65" x:str>A2305</td>
+    <td class="xl65" x:str>15:42.9</td>
+    <td class="xl65" x:str>03:55.7</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>4</td>
+    <td class="xl65" x:str>兰州交通大学-天佑雄鹰</td>
+    <td class="xl65" x:str>古丽米热·麦合木提</td>
+    <td class="xl65" x:str>A0105</td>
+    <td class="xl65" x:str>16:02.4</td>
+    <td class="xl65" x:str>04:00.6</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>5</td>
+    <td class="xl65" x:str>榆林学院-奋斗乐跑团</td>
+    <td class="xl65" x:str>路兰</td>
+    <td class="xl65" x:str>A2210</td>
+    <td class="xl65" x:str>16:16.9</td>
+    <td class="xl65" x:str>04:04.2</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>6</td>
+    <td class="xl65" x:str>西北工业大学-翱翔长安</td>
+    <td class="xl65" x:str>张思齐</td>
+    <td class="xl65" x:str>A0510</td>
+    <td class="xl65" x:str>16:26.0</td>
+    <td class="xl65" x:str>04:06.5</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>7</td>
+    <td class="xl65" x:str>中南大学-律动ing</td>
+    <td class="xl65" x:str>张琦悦</td>
+    <td class="xl65" x:str>A2310</td>
+    <td class="xl65" x:str>16:38.8</td>
+    <td class="xl65" x:str>04:09.7</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>8</td>
+    <td class="xl65" x:str>西北农林科技大学-麦田守望</td>
+    <td class="xl65" x:str>李娜</td>
+    <td class="xl65" x:str>A0610</td>
+    <td class="xl65" x:str>16:45.8</td>
+    <td class="xl65" x:str>04:11.4</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>9</td>
+    <td class="xl65" x:str>南开大学-南开跑步小火车</td>
+    <td class="xl65" x:str>伍维佳</td>
+    <td class="xl65" x:str>A1510</td>
+    <td class="xl65" x:str>16:54.0</td>
+    <td class="xl65" x:str>04:13.5</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>10</td>
+    <td class="xl65" x:str>西安电子科技大学-西电励行</td>
+    <td class="xl65" x:str>谢宗睿</td>
+    <td class="xl65" x:str>A0810</td>
+    <td class="xl65" x:str>16:55.0</td>
+    <td class="xl65" x:str>04:13.7</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>11</td>
+    <td class="xl65" x:str>兰州大学-马孔多战队</td>
+    <td class="xl65" x:str>马蕊宇</td>
+    <td class="xl65" x:str>A1410</td>
+    <td class="xl65" x:str>16:59.6</td>
+    <td class="xl65" x:str>04:14.9</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>12</td>
+    <td class="xl65" x:str>西安交通大学-向西而歌</td>
+    <td class="xl65" x:str>李明睿</td>
+    <td class="xl65" x:str>A0410</td>
+    <td class="xl65" x:str>16:59.8</td>
+    <td class="xl65" x:str>04:14.9</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>13</td>
+    <td class="xl65" x:str>西安工程大学-西工程户外队</td>
+    <td class="xl65" x:str>刘拴桂</td>
+    <td class="xl65" x:str>A0210</td>
+    <td class="xl65" x:str>17:03.3</td>
+    <td class="xl65" x:str>04:15.8</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>14</td>
+    <td class="xl65" x:str>西安科技大学-西科Hormone跑团</td>
+    <td class="xl65" x:str>田馨园</td>
+    <td class="xl65" x:str>A1205</td>
+    <td class="xl65" x:str>17:08.0</td>
+    <td class="xl65" x:str>04:17.0</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>15</td>
+    <td class="xl65" x:str>陕西师范大学-马拉松育人工作坊</td>
+    <td class="xl65" x:str>李西伦</td>
+    <td class="xl65" x:str>A1605</td>
+    <td class="xl65" x:str>17:11.2</td>
+    <td class="xl65" x:str>04:17.8</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>16</td>
+    <td class="xl65" x:str>兰州大学-马孔多战队</td>
+    <td class="xl65" x:str>黄丽花</td>
+    <td class="xl65" x:str>A1405</td>
+    <td class="xl65" x:str>17:25.4</td>
+    <td class="xl65" x:str>04:21.3</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>17</td>
+    <td class="xl65" x:str>西北农林科技大学-麦田守望</td>
+    <td class="xl65" x:str>马婷</td>
+    <td class="xl65" x:str>A0605</td>
+    <td class="xl65" x:str>17:25.8</td>
+    <td class="xl65" x:str>04:21.5</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>18</td>
+    <td class="xl65" x:str>长安大学-渭梦跑团一队</td>
+    <td class="xl65" x:str>高秀秀</td>
+    <td class="xl65" x:str>A1005</td>
+    <td class="xl65" x:str>17:28.3</td>
+    <td class="xl65" x:str>04:22.1</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>19</td>
+    <td class="xl65" x:str>南开大学-南开跑步小火车</td>
+    <td class="xl65" x:str>孟娜娜</td>
+    <td class="xl65" x:str>A1505</td>
+    <td class="xl65" x:str>17:41.6</td>
+    <td class="xl65" x:str>04:25.4</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>20</td>
+    <td class="xl65" x:str>长安大学-渭梦跑团一队</td>
+    <td class="xl65" x:str>颜心怡</td>
+    <td class="xl65" x:str>A1010</td>
+    <td class="xl65" x:str>17:44.8</td>
+    <td class="xl65" x:str>04:26.2</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>21</td>
+    <td class="xl65" x:str>陕西师范大学-马拉松育人工作坊</td>
+    <td class="xl65" x:str>杨运娥</td>
+    <td class="xl65" x:str>A1610</td>
+    <td class="xl65" x:str>17:46.2</td>
+    <td class="xl65" x:str>04:26.5</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>22</td>
+    <td class="xl65" x:str>西安理工大学-一曲金辉</td>
+    <td class="xl65" x:str>李岚颖</td>
+    <td class="xl65" x:str>A1905</td>
+    <td class="xl65" x:str>17:51.6</td>
+    <td class="xl65" x:str>04:27.9</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>23</td>
+    <td class="xl65" x:str>西安工程大学-西工程户外队</td>
+    <td class="xl65" x:str>江可瑶</td>
+    <td class="xl65" x:str>A0205</td>
+    <td class="xl65" x:str>17:54.7</td>
+    <td class="xl65" x:str>04:28.7</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>24</td>
+    <td class="xl65" x:str>西安理工大学-一曲金辉</td>
+    <td class="xl65" x:str>谭佳乐</td>
+    <td class="xl65" x:str>A1910</td>
+    <td class="xl65" x:str>18:12.8</td>
+    <td class="xl65" x:str>04:33.2</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>25</td>
+    <td class="xl65" x:str>西北工业大学-翱翔长安</td>
+    <td class="xl65" x:str>刘亚婷</td>
+    <td class="xl65" x:str>A0505</td>
+    <td class="xl65" x:str>18:13.1</td>
+    <td class="xl65" x:str>04:33.3</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>26</td>
+    <td class="xl65" x:str>西安交通大学-向西而歌</td>
+    <td class="xl65" x:str>朱欢</td>
+    <td class="xl65" x:str>A0405</td>
+    <td class="xl65" x:str>18:13.2</td>
+    <td class="xl65" x:str>04:33.3</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>27</td>
+    <td class="xl65" x:str>西安电子科技大学-西电励行</td>
+    <td class="xl65" x:str>何欣钰</td>
+    <td class="xl65" x:str>A0805</td>
+    <td class="xl65" x:str>18:20.8</td>
+    <td class="xl65" x:str>04:35.2</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>28</td>
+    <td class="xl65" x:str>华北水利水电大学-华水青水致风</td>
+    <td class="xl65" x:str>邓芳</td>
+    <td class="xl65" x:str>A1305</td>
+    <td class="xl65" x:str>18:32.4</td>
+    <td class="xl65" x:str>04:38.1</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>29</td>
+    <td class="xl65" x:str>长安大学-渭梦跑团二队</td>
+    <td class="xl65" x:str>邵晓梅</td>
+    <td class="xl65" x:str>A1110</td>
+    <td class="xl65" x:str>18:35.2</td>
+    <td class="xl65" x:str>04:38.8</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>30</td>
+    <td class="xl65" x:str>西安财经大学-禾影逐风跑团</td>
+    <td class="xl65" x:str>熊露</td>
+    <td class="xl65" x:str>A1705</td>
+    <td class="xl65" x:str>18:40.0</td>
+    <td class="xl65" x:str>04:40.0</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>31</td>
+    <td class="xl65" x:str>西安外事学院-鱼化龙跑团</td>
+    <td class="xl65" x:str>徐慧慧</td>
+    <td class="xl65" x:str>A2105</td>
+    <td class="xl65" x:str>18:41.4</td>
+    <td class="xl65" x:str>04:40.3</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>32</td>
+    <td class="xl65" x:str>西安航空学院-西航Hello Runner跑团</td>
+    <td class="xl65" x:str>廖雯雯</td>
+    <td class="xl65" x:str>A1810</td>
+    <td class="xl65" x:str>18:42.4</td>
+    <td class="xl65" x:str>04:40.6</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>33</td>
+    <td class="xl65" x:str>华北水利水电大学-华水青水致风</td>
+    <td class="xl65" x:str>张继红</td>
+    <td class="xl65" x:str>A1310</td>
+    <td class="xl65" x:str>18:43.6</td>
+    <td class="xl65" x:str>04:40.9</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>34</td>
+    <td class="xl65" x:str>西北大学-YES跑步训练营</td>
+    <td class="xl65" x:str>雷欣妍</td>
+    <td class="xl65" x:str>A0705</td>
+    <td class="xl65" x:str>19:06.0</td>
+    <td class="xl65" x:str>04:46.5</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>35</td>
+    <td class="xl65" x:str>西安工程大学-纺华岁月</td>
+    <td class="xl65" x:str>魏娜英</td>
+    <td class="xl65" x:str>A0305</td>
+    <td class="xl65" x:str>19:07.7</td>
+    <td class="xl65" x:str>04:46.9</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>36</td>
+    <td class="xl65" x:str>西安外国语大学-西外小小跑团</td>
+    <td class="xl65" x:str>王加荣</td>
+    <td class="xl65" x:str>A2005</td>
+    <td class="xl65" x:str>19:13.4</td>
+    <td class="xl65" x:str>04:48.4</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>37</td>
+    <td class="xl65" x:str>西安电子科技大学-追风小队</td>
+    <td class="xl65" x:str>熊倪</td>
+    <td class="xl65" x:str>A0905</td>
+    <td class="xl65" x:str>19:18.3</td>
+    <td class="xl65" x:str>04:49.6</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>38</td>
+    <td class="xl65" x:str>西安外事学院-鱼化龙跑团</td>
+    <td class="xl65" x:str>姜永青</td>
+    <td class="xl65" x:str>A2110</td>
+    <td class="xl65" x:str>19:21.1</td>
+    <td class="xl65" x:str>04:50.3</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>39</td>
+    <td class="xl65" x:str>西安工程大学-纺华岁月</td>
+    <td class="xl65" x:str>王晶</td>
+    <td class="xl65" x:str>A0310</td>
+    <td class="xl65" x:str>19:33.9</td>
+    <td class="xl65" x:str>04:53.5</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>40</td>
+    <td class="xl65" x:str>西安财经大学-禾影逐风跑团</td>
+    <td class="xl65" x:str>麦迪乃·然克甫巴衣</td>
+    <td class="xl65" x:str>A1710</td>
+    <td class="xl65" x:str>19:37.2</td>
+    <td class="xl65" x:str>04:54.3</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>41</td>
+    <td class="xl65" x:str>西安电子科技大学-追风小队</td>
+    <td class="xl65" x:str>陈诗佳</td>
+    <td class="xl65" x:str>A0910</td>
+    <td class="xl65" x:str>19:50.7</td>
+    <td class="xl65" x:str>04:57.7</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>42</td>
+    <td class="xl65" x:str>长安大学-渭梦跑团二队</td>
+    <td class="xl65" x:str>张俪儇</td>
+    <td class="xl65" x:str>A1105</td>
+    <td class="xl65" x:str>20:04.1</td>
+    <td class="xl65" x:str>05:01.0</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>43</td>
+    <td class="xl65" x:str>西安科技大学-西科Hormone跑团</td>
+    <td class="xl65" x:str>阿依沙木古力·阿卜杜热西提</td>
+    <td class="xl65" x:str>A1210</td>
+    <td class="xl65" x:str>20:14.2</td>
+    <td class="xl65" x:str>05:03.5</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>44</td>
+    <td class="xl65" x:str>榆林学院-奋斗乐跑团</td>
+    <td class="xl65" x:str>刘琳熙</td>
+    <td class="xl65" x:str>A2205</td>
+    <td class="xl65" x:str>21:11.8</td>
+    <td class="xl65" x:str>05:18.0</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>45</td>
+    <td class="xl65" x:str>西安外国语大学-西外小小跑团</td>
+    <td class="xl65" x:str>张棱晰</td>
+    <td class="xl65" x:str>A2010</td>
+    <td class="xl65" x:str>22:12.8</td>
+    <td class="xl65" x:str>05:33.2</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>46</td>
+    <td class="xl65" x:str>西安航空学院-西航Hello Runner跑团</td>
+    <td class="xl65" x:str>崔晨宇</td>
+    <td class="xl65" x:str>A1805</td>
+    <td class="xl65" x:str>22:27.9</td>
+    <td class="xl65" x:str>05:37.0</td>
+    <td x:str>女</td>
+   </tr>
+   <tr height="50" style='height:25.00pt;mso-height-source:userset;mso-height-alt:500;'>
+    <td class="xl65" height="50" style='height:25.00pt;' x:str>64</td>
+    <td class="xl65" x:str>西安科技大学-西科Hormone跑团</td>
+    <td class="xl65" x:str>王乐</td>
+    <td class="xl65" x:str>A1201</td>
+    <td class="xl65" x:str>13:59.4</td>
+    <td class="xl65" x:str>03:29.9</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="48" style='height:24.00pt;mso-height-source:userset;mso-height-alt:480;'>
+    <td class="xl65" height="48" style='height:24.00pt;' x:str>65</td>
+    <td class="xl65" x:str>南开大学-南开跑步小火车</td>
+    <td class="xl65" x:str>杨丁</td>
+    <td class="xl65" x:str>A1504</td>
+    <td class="xl65" x:str>13:59.5</td>
+    <td class="xl65" x:str>03:29.9</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>66</td>
+    <td class="xl65" x:str>兰州大学-马孔多战队</td>
+    <td class="xl65" x:str>王俊希</td>
+    <td class="xl65" x:str>A1409</td>
+    <td class="xl65" x:str>13:59.6</td>
+    <td class="xl65" x:str>03:29.9</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>67</td>
+    <td class="xl65" x:str>西北农林科技大学-麦田守望</td>
+    <td class="xl65" x:str>李幸运</td>
+    <td class="xl65" x:str>A0604</td>
+    <td class="xl65" x:str>14:01.0</td>
+    <td class="xl65" x:str>03:30.2</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>68</td>
+    <td class="xl65" x:str>兰州大学-马孔多战队</td>
+    <td class="xl65" x:str>旦增曲培</td>
+    <td class="xl65" x:str>A1406</td>
+    <td class="xl65" x:str>14:01.1</td>
+    <td class="xl65" x:str>03:30.3</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>69</td>
+    <td class="xl65" x:str>长安大学-渭梦跑团一队</td>
+    <td class="xl65" x:str>周贤</td>
+    <td class="xl65" x:str>A1008</td>
+    <td class="xl65" x:str>14:01.2</td>
+    <td class="xl65" x:str>03:30.3</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>70</td>
+    <td class="xl65" x:str>南开大学-南开跑步小火车</td>
+    <td class="xl65" x:str>施君鉴</td>
+    <td class="xl65" x:str>A1507</td>
+    <td class="xl65" x:str>14:04.4</td>
+    <td class="xl65" x:str>03:31.1</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>71</td>
+    <td class="xl65" x:str>华北水利水电大学-华水青水致风</td>
+    <td class="xl65" x:str>刘阳</td>
+    <td class="xl65" x:str>A1303</td>
+    <td class="xl65" x:str>14:04.8</td>
+    <td class="xl65" x:str>03:31.2</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>72</td>
+    <td class="xl65" x:str>兰州大学-马孔多战队</td>
+    <td class="xl65" x:str>也尔加那提·开克巴提</td>
+    <td class="xl65" x:str>A1404</td>
+    <td class="xl65" x:str>14:05.3</td>
+    <td class="xl65" x:str>03:31.3</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>73</td>
+    <td class="xl65" x:str>西北工业大学-翱翔长安</td>
+    <td class="xl65" x:str>张子翔</td>
+    <td class="xl65" x:str>A0504</td>
+    <td class="xl65" x:str>14:05.7</td>
+    <td class="xl65" x:str>03:31.4</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>74</td>
+    <td class="xl65" x:str>西安航空学院-西航Hello Runner跑团</td>
+    <td class="xl65" x:str>邢科鑫</td>
+    <td class="xl65" x:str>A1809</td>
+    <td class="xl65" x:str>14:06.0</td>
+    <td class="xl65" x:str>03:31.5</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>75</td>
+    <td class="xl65" x:str>西北农林科技大学-麦田守望</td>
+    <td class="xl65" x:str>龚森</td>
+    <td class="xl65" x:str>A0603</td>
+    <td class="xl65" x:str>14:06.5</td>
+    <td class="xl65" x:str>03:31.6</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>76</td>
+    <td class="xl65" x:str>西安工程大学-纺华岁月</td>
+    <td class="xl65" x:str>董辉</td>
+    <td class="xl65" x:str>A0309</td>
+    <td class="xl65" x:str>14:08.0</td>
+    <td class="xl65" x:str>03:32.0</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>77</td>
+    <td class="xl65" x:str>陕西师范大学-马拉松育人工作坊</td>
+    <td class="xl65" x:str>杨希晨</td>
+    <td class="xl65" x:str>A1609</td>
+    <td class="xl65" x:str>14:08.3</td>
+    <td class="xl65" x:str>03:32.1</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>78</td>
+    <td class="xl65" x:str>西北大学-YES跑步训练营</td>
+    <td class="xl65" x:str>刘祖沛</td>
+    <td class="xl65" x:str>A0703</td>
+    <td class="xl65" x:str>14:08.4</td>
+    <td class="xl65" x:str>03:32.1</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>79</td>
+    <td class="xl65" x:str>西安工程大学-纺华岁月</td>
+    <td class="xl65" x:str>刘治凯</td>
+    <td class="xl65" x:str>A0301</td>
+    <td class="xl65" x:str>14:09.7</td>
+    <td class="xl65" x:str>03:32.4</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>80</td>
+    <td class="xl65" x:str>西安电子科技大学-西电励行</td>
+    <td class="xl65" x:str>陆吉云</td>
+    <td class="xl65" x:str>A0807</td>
+    <td class="xl65" x:str>14:10.4</td>
+    <td class="xl65" x:str>03:32.6</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>81</td>
+    <td class="xl65" x:str>南开大学-南开跑步小火车</td>
+    <td class="xl65" x:str>冯剑桥</td>
+    <td class="xl65" x:str>A1506</td>
+    <td class="xl65" x:str>14:10.4</td>
+    <td class="xl65" x:str>03:32.6</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>82</td>
+    <td class="xl65" x:str>西安交通大学-向西而歌</td>
+    <td class="xl65" x:str>陆星辰</td>
+    <td class="xl65" x:str>A0402</td>
+    <td class="xl65" x:str>14:13.7</td>
+    <td class="xl65" x:str>03:33.4</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>83</td>
+    <td class="xl65" x:str>西安科技大学-西科Hormone跑团</td>
+    <td class="xl65" x:str>黄怡翔</td>
+    <td class="xl65" x:str>A1209</td>
+    <td class="xl65" x:str>14:14.5</td>
+    <td class="xl65" x:str>03:33.6</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>84</td>
+    <td class="xl65" x:str>西安电子科技大学-西电励行</td>
+    <td class="xl65" x:str>李子聪</td>
+    <td class="xl65" x:str>A0808</td>
+    <td class="xl65" x:str>14:14.6</td>
+    <td class="xl65" x:str>03:33.6</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>85</td>
+    <td class="xl65" x:str>长安大学-渭梦跑团一队</td>
+    <td class="xl65" x:str>高琦</td>
+    <td class="xl65" x:str>A1006</td>
+    <td class="xl65" x:str>14:15.0</td>
+    <td class="xl65" x:str>03:33.7</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>86</td>
+    <td class="xl65" x:str>西安电子科技大学-西电励行</td>
+    <td class="xl65" x:str>郝乐臣</td>
+    <td class="xl65" x:str>A0809</td>
+    <td class="xl65" x:str>14:15.2</td>
+    <td class="xl65" x:str>03:33.8</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>87</td>
+    <td class="xl65" x:str>兰州大学-马孔多战队</td>
+    <td class="xl65" x:str>王士新</td>
+    <td class="xl65" x:str>A1402</td>
+    <td class="xl65" x:str>14:15.7</td>
+    <td class="xl65" x:str>03:33.9</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>88</td>
+    <td class="xl65" x:str>榆林学院-奋斗乐跑团</td>
+    <td class="xl65" x:str>史睿</td>
+    <td class="xl65" x:str>A2202</td>
+    <td class="xl65" x:str>14:15.7</td>
+    <td class="xl65" x:str>03:33.9</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>89</td>
+    <td class="xl65" x:str>西北工业大学-翱翔长安</td>
+    <td class="xl65" x:str>陆誉文</td>
+    <td class="xl65" x:str>A0507</td>
+    <td class="xl65" x:str>14:17.0</td>
+    <td class="xl65" x:str>03:34.3</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>90</td>
+    <td class="xl65" x:str>长安大学-渭梦跑团一队</td>
+    <td class="xl65" x:str>杨旭东</td>
+    <td class="xl65" x:str>A1003</td>
+    <td class="xl65" x:str>14:17.3</td>
+    <td class="xl65" x:str>03:34.3</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>91</td>
+    <td class="xl65" x:str>西安科技大学-西科Hormone跑团</td>
+    <td class="xl65" x:str>丁东东</td>
+    <td class="xl65" x:str>A1203</td>
+    <td class="xl65" x:str>14:17.4</td>
+    <td class="xl65" x:str>03:34.3</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>92</td>
+    <td class="xl65" x:str>中南大学-律动ing</td>
+    <td class="xl65" x:str>刘正杰</td>
+    <td class="xl65" x:str>A2309</td>
+    <td class="xl65" x:str>14:17.4</td>
+    <td class="xl65" x:str>03:34.4</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>93</td>
+    <td class="xl65" x:str>兰州大学-马孔多战队</td>
+    <td class="xl65" x:str>安洋</td>
+    <td class="xl65" x:str>A1407</td>
+    <td class="xl65" x:str>14:17.4</td>
+    <td class="xl65" x:str>03:34.4</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>94</td>
+    <td class="xl65" x:str>西安交通大学-向西而歌</td>
+    <td class="xl65" x:str>侯新宇</td>
+    <td class="xl65" x:str>A0407</td>
+    <td class="xl65" x:str>14:19.7</td>
+    <td class="xl65" x:str>03:34.9</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>95</td>
+    <td class="xl65" x:str>西北农林科技大学-麦田守望</td>
+    <td class="xl65" x:str>付游</td>
+    <td class="xl65" x:str>A0608</td>
+    <td class="xl65" x:str>14:23.0</td>
+    <td class="xl65" x:str>03:35.8</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>96</td>
+    <td class="xl65" x:str>西安工程大学-纺华岁月</td>
+    <td class="xl65" x:str>胡桐桐</td>
+    <td class="xl65" x:str>A0308</td>
+    <td class="xl65" x:str>14:23.7</td>
+    <td class="xl65" x:str>03:35.9</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>97</td>
+    <td class="xl65" x:str>西安财经大学-禾影逐风跑团</td>
+    <td class="xl65" x:str>李安</td>
+    <td class="xl65" x:str>A1702</td>
+    <td class="xl65" x:str>14:23.9</td>
+    <td class="xl65" x:str>03:36.0</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>98</td>
+    <td class="xl65" x:str>西北工业大学-翱翔长安</td>
+    <td class="xl65" x:str>刘欢</td>
+    <td class="xl65" x:str>A0503</td>
+    <td class="xl65" x:str>14:24.2</td>
+    <td class="xl65" x:str>03:36.0</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>99</td>
+    <td class="xl65" x:str>西安科技大学-西科Hormone跑团</td>
+    <td class="xl65" x:str>赵帮锭</td>
+    <td class="xl65" x:str>A1204</td>
+    <td class="xl65" x:str>14:24.5</td>
+    <td class="xl65" x:str>03:36.1</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>100</td>
+    <td class="xl65" x:str>长安大学-渭梦跑团一队</td>
+    <td class="xl65" x:str>张肇熙</td>
+    <td class="xl65" x:str>A1004</td>
+    <td class="xl65" x:str>14:25.1</td>
+    <td class="xl65" x:str>03:36.3</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>101</td>
+    <td class="xl65" x:str>兰州大学-马孔多战队</td>
+    <td class="xl65" x:str>杨浩然</td>
+    <td class="xl65" x:str>A1403</td>
+    <td class="xl65" x:str>14:27.7</td>
+    <td class="xl65" x:str>03:36.9</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>102</td>
+    <td class="xl65" x:str>西安理工大学--曲金辉</td>
+    <td class="xl65" x:str>伍立桥</td>
+    <td class="xl65" x:str>A1901</td>
+    <td class="xl65" x:str>14:28.7</td>
+    <td class="xl65" x:str>03:37.2</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>103</td>
+    <td class="xl65" x:str>西北工业大学-翱翔长安</td>
+    <td class="xl65" x:str>严琰</td>
+    <td class="xl65" x:str>A0509</td>
+    <td class="xl65" x:str>14:28.8</td>
+    <td class="xl65" x:str>03:37.2</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>104</td>
+    <td class="xl65" x:str>西北农林科技大学-麦田守望</td>
+    <td class="xl65" x:str>李志宏</td>
+    <td class="xl65" x:str>A0607</td>
+    <td class="xl65" x:str>14:28.9</td>
+    <td class="xl65" x:str>03:37.2</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>105</td>
+    <td class="xl65" x:str>西安理工大学--曲金辉</td>
+    <td class="xl65" x:str>余志宇</td>
+    <td class="xl65" x:str>A1906</td>
+    <td class="xl65" x:str>14:29.1</td>
+    <td class="xl65" x:str>03:37.3</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>106</td>
+    <td class="xl65" x:str>西北大学-YES跑步训练营</td>
+    <td class="xl65" x:str>李佳乐</td>
+    <td class="xl65" x:str>A0704</td>
+    <td class="xl65" x:str>14:31.8</td>
+    <td class="xl65" x:str>03:38.0</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>107</td>
+    <td class="xl65" x:str>西安科技大学-西科Hormone跑团</td>
+    <td class="xl65" x:str>赛甫拉·赛依提</td>
+    <td class="xl65" x:str>A1208</td>
+    <td class="xl65" x:str>14:32.8</td>
+    <td class="xl65" x:str>03:38.2</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>108</td>
+    <td class="xl65" x:str>华北水利水电大学-华水青水致风</td>
+    <td class="xl65" x:str>林世博</td>
+    <td class="xl65" x:str>A1309</td>
+    <td class="xl65" x:str>14:35.0</td>
+    <td class="xl65" x:str>03:38.7</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>109</td>
+    <td class="xl65" x:str>陕西师范大学-马拉松育人工作坊</td>
+    <td class="xl65" x:str>宁凯</td>
+    <td class="xl65" x:str>A1602</td>
+    <td class="xl65" x:str>14:38.5</td>
+    <td class="xl65" x:str>03:39.6</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>110</td>
+    <td class="xl65" x:str>中南大学-律动ing</td>
+    <td class="xl65" x:str>陈湘龙</td>
+    <td class="xl65" x:str>A2307</td>
+    <td class="xl65" x:str>14:39.1</td>
+    <td class="xl65" x:str>03:39.8</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>111</td>
+    <td class="xl65" x:str>西安航空学院-西航Hello Runner跑团</td>
+    <td class="xl65" x:str>陈思铭</td>
+    <td class="xl65" x:str>A1803</td>
+    <td class="xl65" x:str>14:39.1</td>
+    <td class="xl65" x:str>03:39.8</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>112</td>
+    <td class="xl65" x:str>西安外国语大学-西外小小跑团</td>
+    <td class="xl65" x:str>李银杰</td>
+    <td class="xl65" x:str>A2001</td>
+    <td class="xl65" x:str>14:40.3</td>
+    <td class="xl65" x:str>03:40.1</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>113</td>
+    <td class="xl65" x:str>南开大学-南开跑步小火车</td>
+    <td class="xl65" x:str>吴京员</td>
+    <td class="xl65" x:str>A1503</td>
+    <td class="xl65" x:str>14:41.1</td>
+    <td class="xl65" x:str>03:40.3</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>114</td>
+    <td class="xl65" x:str>陕西师范大学-马拉松育人工作坊</td>
+    <td class="xl65" x:str>朱邦杰</td>
+    <td class="xl65" x:str>A1607</td>
+    <td class="xl65" x:str>14:41.7</td>
+    <td class="xl65" x:str>03:40.4</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>115</td>
+    <td class="xl65" x:str>西安电子科技大学-追风小队</td>
+    <td class="xl65" x:str>冯晋泽</td>
+    <td class="xl65" x:str>A0902</td>
+    <td class="xl65" x:str>14:43.7</td>
+    <td class="xl65" x:str>03:40.9</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>116</td>
+    <td class="xl65" x:str>西安电子科技大学-西电励行</td>
+    <td class="xl65" x:str>滕彭超</td>
+    <td class="xl65" x:str>A0803</td>
+    <td class="xl65" x:str>14:45.1</td>
+    <td class="xl65" x:str>03:41.3</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>117</td>
+    <td class="xl65" x:str>西北工业大学-翱翔长安</td>
+    <td class="xl65" x:str>严沛华</td>
+    <td class="xl65" x:str>A0502</td>
+    <td class="xl65" x:str>14:45.7</td>
+    <td class="xl65" x:str>03:41.4</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>118</td>
+    <td class="xl65" x:str>西安航空学院-西航Hello Runner跑团</td>
+    <td class="xl65" x:str>邢亮</td>
+    <td class="xl65" x:str>A1802</td>
+    <td class="xl65" x:str>14:45.9</td>
+    <td class="xl65" x:str>03:41.5</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>119</td>
+    <td class="xl65" x:str>西北大学-YES跑步训练营</td>
+    <td class="xl65" x:str>王佳璇</td>
+    <td class="xl65" x:str>A0708</td>
+    <td class="xl65" x:str>14:45.9</td>
+    <td class="xl65" x:str>03:41.5</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>120</td>
+    <td class="xl65" x:str>西安电子科技大学-西电励行</td>
+    <td class="xl65" x:str>范赫</td>
+    <td class="xl65" x:str>A0806</td>
+    <td class="xl65" x:str>14:46.5</td>
+    <td class="xl65" x:str>03:41.6</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>121</td>
+    <td class="xl65" x:str>长安大学-渭梦跑团二队</td>
+    <td class="xl65" x:str>陈志成</td>
+    <td class="xl65" x:str>A1102</td>
+    <td class="xl65" x:str>14:46.7</td>
+    <td class="xl65" x:str>03:41.7</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>122</td>
+    <td class="xl65" x:str>长安大学-渭梦跑团二队</td>
+    <td class="xl65" x:str>陆显翊</td>
+    <td class="xl65" x:str>A1101</td>
+    <td class="xl65" x:str>14:48.1</td>
+    <td class="xl65" x:str>03:42.0</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>123</td>
+    <td class="xl65" x:str>长安大学-渭梦跑团二队</td>
+    <td class="xl65" x:str>焦健昊</td>
+    <td class="xl65" x:str>A1104</td>
+    <td class="xl65" x:str>14:48.2</td>
+    <td class="xl65" x:str>03:42.1</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>124</td>
+    <td class="xl65" x:str>西安理工大学--曲金辉</td>
+    <td class="xl65" x:str>巴桑次仁</td>
+    <td class="xl65" x:str>A1904</td>
+    <td class="xl65" x:str>14:48.9</td>
+    <td class="xl65" x:str>03:42.2</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>125</td>
+    <td class="xl65" x:str>西北工业大学-翱翔长安</td>
+    <td class="xl65" x:str>蔡沅辰</td>
+    <td class="xl65" x:str>A0506</td>
+    <td class="xl65" x:str>14:51.1</td>
+    <td class="xl65" x:str>03:42.8</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>126</td>
+    <td class="xl65" x:str>西北工业大学-翱翔长安</td>
+    <td class="xl65" x:str>王泽源</td>
+    <td class="xl65" x:str>A0508</td>
+    <td class="xl65" x:str>14:52.4</td>
+    <td class="xl65" x:str>03:43.1</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>127</td>
+    <td class="xl65" x:str>西安外国语大学-西外小小跑团</td>
+    <td class="xl65" x:str>刘玥衡</td>
+    <td class="xl65" x:str>A2002</td>
+    <td class="xl65" x:str>14:54.5</td>
+    <td class="xl65" x:str>03:43.6</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>128</td>
+    <td class="xl65" x:str>华北水利水电大学-华水青水致风</td>
+    <td class="xl65" x:str>冯垠皓</td>
+    <td class="xl65" x:str>A1304</td>
+    <td class="xl65" x:str>14:56.7</td>
+    <td class="xl65" x:str>03:44.2</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>129</td>
+    <td class="xl65" x:str>西安理工大学-一曲金辉</td>
+    <td class="xl65" x:str>徐林斌</td>
+    <td class="xl65" x:str>A1909</td>
+    <td class="xl65" x:str>15:00.4</td>
+    <td class="xl65" x:str>03:45.1</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>130</td>
+    <td class="xl65" x:str>长安大学-渭梦跑团二队</td>
+    <td class="xl65" x:str>吴宇航</td>
+    <td class="xl65" x:str>A1108</td>
+    <td class="xl65" x:str>15:01.7</td>
+    <td class="xl65" x:str>03:45.4</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>131</td>
+    <td class="xl65" x:str>陕西师范大学-马拉松育人工作坊</td>
+    <td class="xl65" x:str>陈云博</td>
+    <td class="xl65" x:str>A1603</td>
+    <td class="xl65" x:str>15:02.8</td>
+    <td class="xl65" x:str>03:45.7</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>132</td>
+    <td class="xl65" x:str>西安电子科技大学-西电励行</td>
+    <td class="xl65" x:str>唐凯琪</td>
+    <td class="xl65" x:str>A0804</td>
+    <td class="xl65" x:str>15:03.9</td>
+    <td class="xl65" x:str>03:46.0</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>131</td>
+    <td class="xl65" x:str>陕西师范大学-马拉松育人工作坊</td>
+    <td class="xl65" x:str>陈云博</td>
+    <td class="xl65" x:str>A1603</td>
+    <td class="xl65" x:str>15:02.8</td>
+    <td class="xl65" x:str>03:45.7</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>132</td>
+    <td class="xl65" x:str>西安电子科技大学-西电励行</td>
+    <td class="xl65" x:str>唐凯琪</td>
+    <td class="xl65" x:str>A0804</td>
+    <td class="xl65" x:str>15:03.9</td>
+    <td class="xl65" x:str>03:46.0</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>1</td>
+    <td class="xl65" x:str>南开大学-南开跑步小火车</td>
+    <td class="xl65" x:str>Luke Tianlin Shr</td>
+    <td class="xl65" x:str>A1509</td>
+    <td class="xl65" x:str>12:21.0</td>
+    <td class="xl65" x:str>03:05.2</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>2</td>
+    <td class="xl65" x:str>西北工业大学-翱翔长安</td>
+    <td class="xl65" x:str>徐彦鹏</td>
+    <td class="xl65" x:str>A0501</td>
+    <td class="xl65" x:str>12:23.5</td>
+    <td class="xl65" x:str>03:05.9</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>3</td>
+    <td class="xl65" x:str>西安工程大学-西工程户外队</td>
+    <td class="xl65" x:str>朱越</td>
+    <td class="xl65" x:str>A0201</td>
+    <td class="xl65" x:str>12:24.7</td>
+    <td class="xl65" x:str>03:06.2</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>4</td>
+    <td class="xl65" x:str>兰州交通大学-天佑雄鹰</td>
+    <td class="xl65" x:str>潘江龙</td>
+    <td class="xl65" x:str>A0101</td>
+    <td class="xl65" x:str>12:28.5</td>
+    <td class="xl65" x:str>03:07.1</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>5</td>
+    <td class="xl65" x:str>西安工程大学-西工程户外队</td>
+    <td class="xl65" x:str>谭佳雨</td>
+    <td class="xl65" x:str>A0206</td>
+    <td class="xl65" x:str>12:29.6</td>
+    <td class="xl65" x:str>03:07.4</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>6</td>
+    <td class="xl65" x:str>西安工程大学-西工程户外队</td>
+    <td class="xl65" x:str>范大程</td>
+    <td class="xl65" x:str>A0208</td>
+    <td class="xl65" x:str>12:46.7</td>
+    <td class="xl65" x:str>03:11.7</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>7</td>
+    <td class="xl65" x:str>西安工程大学-西工程户外队</td>
+    <td class="xl65" x:str>王有华</td>
+    <td class="xl65" x:str>A0204</td>
+    <td class="xl65" x:str>12:51.9</td>
+    <td class="xl65" x:str>03:13.0</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>8</td>
+    <td class="xl65" x:str>西安工程大学-西工程户外队</td>
+    <td class="xl65" x:str>冯春阳</td>
+    <td class="xl65" x:str>A0202</td>
+    <td class="xl65" x:str>12:54.4</td>
+    <td class="xl65" x:str>03:13.6</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>9</td>
+    <td class="xl65" x:str>兰州交通大学-天佑雄鹰</td>
+    <td class="xl65" x:str>徐韬新</td>
+    <td class="xl65" x:str>A0108</td>
+    <td class="xl65" x:str>12:57.9</td>
+    <td class="xl65" x:str>03:14.5</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>10</td>
+    <td class="xl65" x:str>西安工程大学-西工程户外队</td>
+    <td class="xl65" x:str>李旭鹏</td>
+    <td class="xl65" x:str>A0207</td>
+    <td class="xl65" x:str>13:05.5</td>
+    <td class="xl65" x:str>03:16.4</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>11</td>
+    <td class="xl65" x:str>华北水利水电大学-华水青水致风</td>
+    <td class="xl65" x:str>岑祚来</td>
+    <td class="xl65" x:str>A1301</td>
+    <td class="xl65" x:str>13:08.1</td>
+    <td class="xl65" x:str>03:17.0</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>12</td>
+    <td class="xl65" x:str>西北农林科技大学-麦田守望</td>
+    <td class="xl65" x:str>阿巴小洛</td>
+    <td class="xl65" x:str>A0601</td>
+    <td class="xl65" x:str>13:08.3</td>
+    <td class="xl65" x:str>03:17.1</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>13</td>
+    <td class="xl65" x:str>兰州交通大学-天佑雄鹰</td>
+    <td class="xl65" x:str>张华浩</td>
+    <td class="xl65" x:str>A0102</td>
+    <td class="xl65" x:str>13:13.9</td>
+    <td class="xl65" x:str>03:18.5</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>14</td>
+    <td class="xl65" x:str>南开大学-南开跑步小火车</td>
+    <td class="xl65" x:str>张巍</td>
+    <td class="xl65" x:str>A1501</td>
+    <td class="xl65" x:str>13:17.0</td>
+    <td class="xl65" x:str>03:19.3</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>15</td>
+    <td class="xl65" x:str>西安交通大学-向西而歌</td>
+    <td class="xl65" x:str>梁宇彤</td>
+    <td class="xl65" x:str>A0408</td>
+    <td class="xl65" x:str>13:23.2</td>
+    <td class="xl65" x:str>03:20.8</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>16</td>
+    <td class="xl65" x:str>兰州交通大学-天佑雄鹰</td>
+    <td class="xl65" x:str>张毓龙</td>
+    <td class="xl65" x:str>A0109</td>
+    <td class="xl65" x:str>13:24.0</td>
+    <td class="xl65" x:str>03:21.0</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>17</td>
+    <td class="xl65" x:str>西安电子科技大学-西电励行</td>
+    <td class="xl65" x:str>陈锦</td>
+    <td class="xl65" x:str>A0801</td>
+    <td class="xl65" x:str>13:24.8</td>
+    <td class="xl65" x:str>03:21.2</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>18</td>
+    <td class="xl65" x:str>西安工程大学-西工程户外队</td>
+    <td class="xl65" x:str>张旺峰</td>
+    <td class="xl65" x:str>A0209</td>
+    <td class="xl65" x:str>13:25.2</td>
+    <td class="xl65" x:str>03:21.3</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>19</td>
+    <td class="xl65" x:str>西安航空学院-西航Hello Runner跑团</td>
+    <td class="xl65" x:str>李佳伟</td>
+    <td class="xl65" x:str>A1801</td>
+    <td class="xl65" x:str>13:27.2</td>
+    <td class="xl65" x:str>03:21.8</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>20</td>
+    <td class="xl65" x:str>中南大学-律动ing</td>
+    <td class="xl65" x:str>衡虹志</td>
+    <td class="xl65" x:str>A2301</td>
+    <td class="xl65" x:str>13:28.4</td>
+    <td class="xl65" x:str>03:22.1</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>21</td>
+    <td class="xl65" x:str>兰州交通大学-天佑雄鹰</td>
+    <td class="xl65" x:str>房斌</td>
+    <td class="xl65" x:str>A0103</td>
+    <td class="xl65" x:str>13:29.3</td>
+    <td class="xl65" x:str>03:22.3</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>22</td>
+    <td class="xl65" x:str>西安交通大学-向西而歌</td>
+    <td class="xl65" x:str>常远</td>
+    <td class="xl65" x:str>A0401</td>
+    <td class="xl65" x:str>13:32.8</td>
+    <td class="xl65" x:str>03:23.2</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>23</td>
+    <td class="xl65" x:str>兰州交通大学-天佑雄鹰</td>
+    <td class="xl65" x:str>唐寅</td>
+    <td class="xl65" x:str>A0106</td>
+    <td class="xl65" x:str>13:33.3</td>
+    <td class="xl65" x:str>03:23.3</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>24</td>
+    <td class="xl65" x:str>西北农林科技大学-麦田守望</td>
+    <td class="xl65" x:str>李想</td>
+    <td class="xl65" x:str>A0609</td>
+    <td class="xl65" x:str>13:34.3</td>
+    <td class="xl65" x:str>03:23.6</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>25</td>
+    <td class="xl65" x:str>长安大学-渭梦跑团一队</td>
+    <td class="xl65" x:str>张清明</td>
+    <td class="xl65" x:str>A1002</td>
+    <td class="xl65" x:str>13:34.4</td>
+    <td class="xl65" x:str>03:23.6</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>26</td>
+    <td class="xl65" x:str>西北农林科技大学-麦田守望</td>
+    <td class="xl65" x:str>叶佳成</td>
+    <td class="xl65" x:str>A0602</td>
+    <td class="xl65" x:str>13:34.8</td>
+    <td class="xl65" x:str>03:23.7</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>27</td>
+    <td class="xl65" x:str>兰州交通大学-天佑雄鹰</td>
+    <td class="xl65" x:str>迪力夏提·艾尼瓦尔</td>
+    <td class="xl65" x:str>A0107</td>
+    <td class="xl65" x:str>13:35.1</td>
+    <td class="xl65" x:str>03:23.8</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>28</td>
+    <td class="xl65" x:str>兰州大学-马孔多战队</td>
+    <td class="xl65" x:str>张鸿祥</td>
+    <td class="xl65" x:str>A1401</td>
+    <td class="xl65" x:str>13:38.7</td>
+    <td class="xl65" x:str>03:24.7</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>29</td>
+    <td class="xl65" x:str>南开大学-南开跑步小火车</td>
+    <td class="xl65" x:str>余茂</td>
+    <td class="xl65" x:str>A1508</td>
+    <td class="xl65" x:str>13:40.0</td>
+    <td class="xl65" x:str>03:25.0</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>30</td>
+    <td class="xl65" x:str>兰州交通大学-天佑雄鹰</td>
+    <td class="xl65" x:str>尤睿智</td>
+    <td class="xl65" x:str>A0104</td>
+    <td class="xl65" x:str>13:40.0</td>
+    <td class="xl65" x:str>03:25.0</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>31</td>
+    <td class="xl65" x:str>榆林学院-奋斗乐跑团</td>
+    <td class="xl65" x:str>普朝阳</td>
+    <td class="xl65" x:str>A2208</td>
+    <td class="xl65" x:str>13:40.7</td>
+    <td class="xl65" x:str>03:25.2</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>32</td>
+    <td class="xl65" x:str>榆林学院-奋斗乐跑团</td>
+    <td class="xl65" x:str>梁帅</td>
+    <td class="xl65" x:str>A2209</td>
+    <td class="xl65" x:str>13:41.9</td>
+    <td class="xl65" x:str>03:25.5</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>33</td>
+    <td class="xl65" x:str>西安科技大学-西科Hormone跑团</td>
+    <td class="xl65" x:str>杨添程</td>
+    <td class="xl65" x:str>A1206</td>
+    <td class="xl65" x:str>13:41.9</td>
+    <td class="xl65" x:str>03:25.5</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>34</td>
+    <td class="xl65" x:str>南开大学-南开跑步小火车</td>
+    <td class="xl65" x:str>季建城</td>
+    <td class="xl65" x:str>A1502</td>
+    <td class="xl65" x:str>13:42.2</td>
+    <td class="xl65" x:str>03:25.5</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>35</td>
+    <td class="xl65" x:str>西安交通大学-向西而歌</td>
+    <td class="xl65" x:str>吴征</td>
+    <td class="xl65" x:str>A0409</td>
+    <td class="xl65" x:str>13:43.5</td>
+    <td class="xl65" x:str>03:25.9</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>36</td>
+    <td class="xl65" x:str>西北大学-YES跑步训练营</td>
+    <td class="xl65" x:str>卢哲</td>
+    <td class="xl65" x:str>A0706</td>
+    <td class="xl65" x:str>13:44.4</td>
+    <td class="xl65" x:str>03:26.1</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>37</td>
+    <td class="xl65" x:str>兰州大学-马孔多战队</td>
+    <td class="xl65" x:str>夏成苇</td>
+    <td class="xl65" x:str>A1408</td>
+    <td class="xl65" x:str>13:44.6</td>
+    <td class="xl65" x:str>03:26.1</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>38</td>
+    <td class="xl65" x:str>中南大学-律动ing</td>
+    <td class="xl65" x:str>李修齐</td>
+    <td class="xl65" x:str>A2302</td>
+    <td class="xl65" x:str>13:44.9</td>
+    <td class="xl65" x:str>03:26.2</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>39</td>
+    <td class="xl65" x:str>榆林学院-奋斗乐跑团</td>
+    <td class="xl65" x:str>艾新宇</td>
+    <td class="xl65" x:str>A2201</td>
+    <td class="xl65" x:str>13:45.7</td>
+    <td class="xl65" x:str>03:26.4</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>40</td>
+    <td class="xl65" x:str>西安电子科技大学-西电励行</td>
+    <td class="xl65" x:str>刘翔</td>
+    <td class="xl65" x:str>A0802</td>
+    <td class="xl65" x:str>13:47.1</td>
+    <td class="xl65" x:str>03:26.8</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>41</td>
+    <td class="xl65" x:str>西安交通大学-向西而歌</td>
+    <td class="xl65" x:str>曹迅</td>
+    <td class="xl65" x:str>A0404</td>
+    <td class="xl65" x:str>13:47.6</td>
+    <td class="xl65" x:str>03:26.9</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>42</td>
+    <td class="xl65" x:str>西北大学-YES跑步训练营</td>
+    <td class="xl65" x:str>田明祥</td>
+    <td class="xl65" x:str>A0702</td>
+    <td class="xl65" x:str>13:48.2</td>
+    <td class="xl65" x:str>03:27.0</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>43</td>
+    <td class="xl65" x:str>华北水利水电大学-华水青水致风</td>
+    <td class="xl65" x:str>张英三</td>
+    <td class="xl65" x:str>A1302</td>
+    <td class="xl65" x:str>13:49.0</td>
+    <td class="xl65" x:str>03:27.3</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>44</td>
+    <td class="xl65" x:str>长安大学-渭梦跑团一队</td>
+    <td class="xl65" x:str>虎智威</td>
+    <td class="xl65" x:str>A1001</td>
+    <td class="xl65" x:str>13:51.1</td>
+    <td class="xl65" x:str>03:27.8</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>45</td>
+    <td class="xl65" x:str>西安工程大学-西工程户外队</td>
+    <td class="xl65" x:str>隆万臣</td>
+    <td class="xl65" x:str>A0203</td>
+    <td class="xl65" x:str>13:51.3</td>
+    <td class="xl65" x:str>03:27.8</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>46</td>
+    <td class="xl65" x:str>西安理工大学--曲金辉</td>
+    <td class="xl65" x:str>杜伟环</td>
+    <td class="xl65" x:str>A1902</td>
+    <td class="xl65" x:str>13:53.2</td>
+    <td class="xl65" x:str>03:28.3</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>47</td>
+    <td class="xl65" x:str>西安科技大学-西科Hormone跑团</td>
+    <td class="xl65" x:str>何文晖</td>
+    <td class="xl65" x:str>A1202</td>
+    <td class="xl65" x:str>13:53.6</td>
+    <td class="xl65" x:str>03:28.4</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>48</td>
+    <td class="xl65" x:str>西安工程大学-纺华岁月</td>
+    <td class="xl65" x:str>夏则洋</td>
+    <td class="xl65" x:str>A0302</td>
+    <td class="xl65" x:str>13:54.2</td>
+    <td class="xl65" x:str>03:28.5</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>49</td>
+    <td class="xl65" x:str>西北大学-YES跑步训练营</td>
+    <td class="xl65" x:str>高紫阳</td>
+    <td class="xl65" x:str>A0707</td>
+    <td class="xl65" x:str>13:54.2</td>
+    <td class="xl65" x:str>03:28.6</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>50</td>
+    <td class="xl65" x:str>西北大学-YES跑步训练营</td>
+    <td class="xl65" x:str>张天成</td>
+    <td class="xl65" x:str>A0701</td>
+    <td class="xl65" x:str>13:54.7</td>
+    <td class="xl65" x:str>03:28.7</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>51</td>
+    <td class="xl65" x:str>中南大学-律动ing</td>
+    <td class="xl65" x:str>刘航</td>
+    <td class="xl65" x:str>A2303</td>
+    <td class="xl65" x:str>13:54.9</td>
+    <td class="xl65" x:str>03:28.7</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>52</td>
+    <td class="xl65" x:str>西安外事学院-鱼化龙跑团</td>
+    <td class="xl65" x:str>李思炎</td>
+    <td class="xl65" x:str>A2102</td>
+    <td class="xl65" x:str>13:55.4</td>
+    <td class="xl65" x:str>03:28.8</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>53</td>
+    <td class="xl65" x:str>长安大学-渭梦跑团一队</td>
+    <td class="xl65" x:str>胡顺琦</td>
+    <td class="xl65" x:str>A1007</td>
+    <td class="xl65" x:str>13:56.5</td>
+    <td class="xl65" x:str>03:29.1</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>54</td>
+    <td class="xl65" x:str>长安大学-渭梦跑团一队</td>
+    <td class="xl65" x:str>闫晨</td>
+    <td class="xl65" x:str>A1009</td>
+    <td class="xl65" x:str>13:56.7</td>
+    <td class="xl65" x:str>03:29.2</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>55</td>
+    <td class="xl65" x:str>中南大学-律动ing</td>
+    <td class="xl65" x:str>陈俊</td>
+    <td class="xl65" x:str>A2306</td>
+    <td class="xl65" x:str>13:56.8</td>
+    <td class="xl65" x:str>03:29.2</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>56</td>
+    <td class="xl65" x:str>陕西师范大学-马拉松育人工作坊</td>
+    <td class="xl65" x:str>马家琪</td>
+    <td class="xl65" x:str>A1604</td>
+    <td class="xl65" x:str>13:56.8</td>
+    <td class="xl65" x:str>03:29.2</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>57</td>
+    <td class="xl65" x:str>中南大学-律动ing</td>
+    <td class="xl65" x:str>祝浩荣</td>
+    <td class="xl65" x:str>A2308</td>
+    <td class="xl65" x:str>13:57.2</td>
+    <td class="xl65" x:str>03:29.3</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>58</td>
+    <td class="xl65" x:str>西北农林科技大学-麦田守望</td>
+    <td class="xl65" x:str>郭永超</td>
+    <td class="xl65" x:str>A0606</td>
+    <td class="xl65" x:str>13:57.7</td>
+    <td class="xl65" x:str>03:29.4</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>59</td>
+    <td class="xl65" x:str>陕西师范大学-马拉松育人工作坊</td>
+    <td class="xl65" x:str>白旭楠</td>
+    <td class="xl65" x:str>A1601</td>
+    <td class="xl65" x:str>13:57.9</td>
+    <td class="xl65" x:str>03:29.5</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>60</td>
+    <td class="xl65" x:str>中南大学-律动ing</td>
+    <td class="xl65" x:str>任聪浩</td>
+    <td class="xl65" x:str>A2304</td>
+    <td class="xl65" x:str>13:58.0</td>
+    <td class="xl65" x:str>03:29.5</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>61</td>
+    <td class="xl65" x:str>西安工程大学-纺华岁月</td>
+    <td class="xl65" x:str>罗培书</td>
+    <td class="xl65" x:str>A0303</td>
+    <td class="xl65" x:str>13:59.2</td>
+    <td class="xl65" x:str>03:29.8</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>62</td>
+    <td class="xl65" x:str>西北大学-YES跑步训练营</td>
+    <td class="xl65" x:str>瞿发钒</td>
+    <td class="xl65" x:str>A0709</td>
+    <td class="xl65" x:str>13:59.2</td>
+    <td class="xl65" x:str>03:29.8</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>63</td>
+    <td class="xl65" x:str>西安交通大学-向西而歌</td>
+    <td class="xl65" x:str>郭逍</td>
+    <td class="xl65" x:str>A0403</td>
+    <td class="xl65" x:str>13:59.4</td>
+    <td class="xl65" x:str>03:29.8</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>64</td>
+    <td class="xl65" x:str>西安科技大学-西科Hormone跑团</td>
+    <td class="xl65" x:str>王乐</td>
+    <td class="xl65" x:str>A1201</td>
+    <td class="xl65" x:str>13:59.4</td>
+    <td class="xl65" x:str>03:29.9</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>65</td>
+    <td class="xl65" x:str>南开大学-南开跑步小火车</td>
+    <td class="xl65" x:str>杨丁</td>
+    <td class="xl65" x:str>A1504</td>
+    <td class="xl65" x:str>13:59.5</td>
+    <td class="xl65" x:str>03:29.9</td>
+    <td x:str>男</td>
+   </tr>
+   <tr height="28" style='height:14.00pt;'>
+    <td class="xl65" height="28" style='height:14.00pt;' x:str>66</td>
+    <td class="xl65" x:str>兰州大学-马孔多战队</td>
+    <td class="xl65" x:str>王俊希</td>
+    <td class="xl65" x:str>A1409</td>
+    <td class="xl65" x:str>13:59.6</td>
+    <td class="xl65" x:str>03:29.9</td>
+    <td x:str>男</td>
+   </tr>
+   <![if supportMisalignedColumns]>
+    <tr width="0" style='display:none;'>
+     <td width="70" style='width:35;'></td>
+     <td width="453" style='width:226;'></td>
+     <td width="365" style='width:182;'></td>
+     <td width="82" style='width:41;'></td>
+     <td width="107" style='width:54;'></td>
+     <td width="96" style='width:48;'></td>
+    </tr>
+   <![endif]>
+  </table>
+ </body>
+</html>
