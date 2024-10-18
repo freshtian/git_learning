@@ -69,4 +69,4 @@ if __name__ == "__main__":
     remove_bin_files(directory)
 
     # 解析所有 .fit 文件，另存为 .txt 文件
-    twt(directory, directory)
+    parse_fit_and_save_as_txt(directory, directory)

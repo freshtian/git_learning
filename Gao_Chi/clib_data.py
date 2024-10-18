@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import re
 
 # 文件路径
-file_path = 'output.txt'
+file_path = '深圳市_跑步20241017162546.txt'
 
 data = []
 

@@ -26,6 +26,7 @@ for line in content:
 
 df = pd.DataFrame(data, columns=['timestamp', 'heart_rate'])
 df['timestamp'] = pd.to_datetime(df['timestamp'])
+df.to_csv('heart_rate_data.txt', sep='\t', index=False)
 
 average_heart_rate = df['heart_rate'].mean()
 std_dev_heart_rate = df['heart_rate'].std()
@@ -37,9 +38,9 @@ df_filtered = df[(df['heart_rate'] >= lower_bound) & (df['heart_rate'] <= upper_
 
 # 计算心率差异
 df['heart_rate_diff'] = df['heart_rate'].diff().abs()
-threshold = 1
+threshold = 2
 significant_changes = df[df['heart_rate_diff'] > threshold]
-
+print(significant_changes)
 # 保留相差超过20秒的时间戳
 filtered_timestamps = []
 previous_time = None
@@ -47,14 +48,15 @@ previous_time = None
 for i in range(len(significant_changes) - 1):
     current_time = significant_changes['timestamp'].iloc[i]
 
-    if previous_time is None or (current_time - previous_time).total_seconds() >= 60:
+    if previous_time is None or (current_time - previous_time).total_seconds() >=30:
         filtered_timestamps.append(current_time)
+        print(current_time)
 
     previous_time = current_time
 
 # 添加最后一个时间戳
 filtered_timestamps.append(significant_changes['timestamp'].iloc[-1])
-
+filtered_timestamps.append(df['timestamp'].iloc[-1])
 # 输出保留的时间戳
 print(filtered_timestamps)
 
