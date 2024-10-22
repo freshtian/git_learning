@@ -63,10 +63,10 @@ def twt(fit_folder, txt_folder):
 
 
 if __name__ == "__main__":
-    directory = os.path.dirname(os.path.abspath(__file__))
-
+    directory = 'data'
+    directory2 = 'data/data_txt'
     # 删除所有 .bin 文件
     remove_bin_files(directory)
 
     # 解析所有 .fit 文件，另存为 .txt 文件
-    parse_fit_and_save_as_txt(directory, directory)
+    parse_fit_and_save_as_txt(directory, directory2)
