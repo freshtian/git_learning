@@ -1,0 +1,43 @@
+Message Name: file_id
+  type: activity (units: None)
+  manufacturer: 294 (units: None)
+  time_created: 2024-09-24 13:43:37 (units: None)
+  product: 802 (units: None)
+  product_name: COROS PACE 2 (units: None)
+----------------------------
+Message Name: developer_data_id
+  manufacturer_id: 294 (units: None)
+  developer_data_index: 0 (units: None)
+  application_id: (0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 71) (units: None)
+----------------------------
+Message Name: device_info
+  timestamp: 2024-09-24 13:43:37 (units: None)
+  manufacturer: 294 (units: None)
+  product_name: COROS PACE 2 (units: None)
+----------------------------
+Message Name: activity
+  timestamp: 2024-09-24 12:16:08 (units: None)
+  total_timer_time: 5040.19 (units: s)
+  local_timestamp: 2024-09-24 20:16:08 (units: None)
+  num_sessions: 1 (units: None)
+  type: manual (units: None)
+  event: activity (units: None)
+  event_type: stop (units: None)
+----------------------------
+Message Name: event
+  timestamp: 2024-09-24 12:16:08 (units: None)
+  event: timer (units: None)
+  event_type: start (units: None)
+  event_group: 0 (units: None)
+----------------------------
+Message Name: record
+  activity_type: running (units: None)
+  timestamp: 2024-09-24 12:16:08 (units: None)
+  distance: 0.0 (units: m)
+----------------------------
+Message Name: event
+  timestamp: 2024-09-24 12:16:08 (units: None)
+  event: timer (units: None)
+  event_type: stop_all (units: None)
+  event_group: 0 (units: None)
+----------------------------
