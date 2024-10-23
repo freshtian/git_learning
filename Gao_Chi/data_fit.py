@@ -2,7 +2,7 @@ import os
 from fitparse import FitFile
 from fitparse import FitParseError, FitFile
 
-
+# dfadf
 def remove_bin_files(folder_path):
     for filename in os.listdir(folder_path):
         if filename.endswith('.bin'):
